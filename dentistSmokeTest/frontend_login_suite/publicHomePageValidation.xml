@@ -19,8 +19,6 @@
 	<import resource="../pageObjects/publicHomePage.xml" />
 	<import resource="../pageObjects/lastPage.xml" />
 	
-<<<<<<< HEAD
-	
 <!-- 	<ate:firefoxDriver  id="MyWebDriver2" profileName="dentisteasy"/>   -->
 <!-- 	<ate:chromeDriver   id="MyWebDriver2" /> -->
 <!-- 	<ate:IEDriver       id="MyWebDriver2" /> -->
@@ -29,17 +27,6 @@
 <!-- 	<ate:htmlUnitDriver id="MyWebDriver2" /> -->
 
 	<ate:firefoxDriver  id="MyWebDriver2" profileName="dentisteasy"/>
-=======
-	<!-- 
-	<ate:firefoxDriver  id="MyWebDriver2" profileName="dentisteasy"/>  
-	<ate:chromeDriver   id="MyWebDriver2" />
-	<ate:IEDriver       id="MyWebDriver2" />
-	<ate:safariDriver   id="MyWebDriver2" />
-	<ate:operaDriver    id="MyWebDriver2" />
-	<ate:htmlUnitDriver id="MyWebDriver2" />
-      -->
-	<ate:firefoxDriver  id="MyWebDriver2" profileName="dentisteasy"/> 
->>>>>>> branch 'master' of git@github.com:ExperimentalLab/dentisteasy.git
 		
 	<ate:testCase id="testcase" testCaseName="Validate public home page">
 		<ate:homeStep id="openPublicHomePage" stepName="openPublicHomePage"
